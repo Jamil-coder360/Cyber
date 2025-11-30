@@ -80,18 +80,22 @@
     .border-bt {
         border-bottom: 2px solid transparent;
         border-image: linear-gradient(to right, #F0B71F, #E03609) 1;
+        /* @apply hidden md:inline-block; */
     }
     .border-lf {
+        /* @apply border-none md:block; */
         border-left: 2px solid transparent;
         border-image: linear-gradient(to right, #F0B71F, #E03609) 1;
     }
     .border-rh {
         border-right: 2px solid transparent;
         border-image: linear-gradient(to right, #F0B71F, #E03609) 1;
+          /* @apply hidden sm:block; */
     }
     .border-tp {
         border-top: 2px solid transparent;
         border-image: linear-gradient(to right, #F0B71F, #E03609) 1;
+          /* @apply hidden md:inline-block; */
     }
 
     .border-all {

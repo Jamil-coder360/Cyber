@@ -1,0 +1,10 @@
+
+ @media (max-width: 767.98px) {
+    .border-bt{
+        border-bottom: none;
+    }
+    .border-lf , .border-rh{
+        display: none;
+    }
+}
+
