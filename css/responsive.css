@@ -7,4 +7,12 @@
         display: none;
     }
 }
+ @media (max-width: 1023.98px) {
+    .border-bt{
+        border-bottom: none;
+    }
+    .border-lf , .border-rh{
+        display: none;
+    }
+}
 
