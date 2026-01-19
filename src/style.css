@@ -4,7 +4,7 @@
 
 /* Custom Utilities */
 @utility container {
-    margin-inline: auto;
+    margin:0 auto;
     padding-inline: 2.8125rem;
 /*     
     .border-bt {
